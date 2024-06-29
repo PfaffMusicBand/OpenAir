@@ -1,15 +1,15 @@
 @font-face {
-    font-family: 'Fixedsys';
-    src: url('fixedsys-excelsior-301/FSEX300.ttf') format('opentype');
+    font-family: 'Hello Honey';
+    src: url('hello-honey/hello\ honey.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Hello Honey';
-    src: url('hello-honey/hello\ honey.otf') format('opentype');
+    font-family: 'Fixedsys', cursive;
+    src: url('fixedsys-excelsior-301/FSEX300.ttf') format('opentype');
     font-weight: normal;
-    font-style: normal;
+    font-style:normal;
 }
 
 body {
@@ -26,7 +26,7 @@ body {
 }
 
 header {
-    font-family: "Fixedsys";
+    font-family: 'Noto Sans JP';
     font-variant: small-caps;
     background-color: rgba(0, 0, 0, 0.7);
     color: goldenrod;
