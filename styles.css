@@ -1,5 +1,19 @@
+@font-face {
+    font-family: 'Fixedsys';
+    src: url('fixedsys-excelsior-301/FSEX300.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hello Honey';
+    src: url('hello-honey/hello\ honey.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: Comic Sans MS;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #333;
@@ -12,7 +26,7 @@ body {
 }
 
 header {
-    font-family: fixedsys;
+    font-family: "Fixedsys";
     font-variant: small-caps;
     background-color: rgba(0, 0, 0, 0.7);
     color: goldenrod;
@@ -20,6 +34,23 @@ header {
     padding: 1rem;
     position: relative;
 }
+
+h1 {
+    background: transparent;
+    color: white;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    margin-top: 70px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+h1:first-of-type {
+    background: goldenrod;
+    color: white;
+    border-radius: 15px;
+}
+
 
 .burger-menu {
     margin-left: 20px;
@@ -81,47 +112,6 @@ header {
 #burger-toggle:checked + .burger-icon + .burger-nav {
     display: block;
     opacity: 1;
-}
-
-.header-button {
-    margin-left: 20px;
-    padding: 10px 20px;
-    background-color: goldenrod;
-    font-family: Comic Sans MS;
-    text-align: center;
-    color: #333;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-    display: inline-block;
-    text-align: center;
-    white-space: nowrap;
-    min-width: 120px;
-    transition: transform 0.2s ease-in-out;
-}
-
-.header-button:hover {
-    transform: scale(1.1);
-}
-
-
-header img {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 70px; 
-    height: 70px; 
-}
-
-h1 {
-    background: goldenrod;
-    color: white;
-    text-align: center;
-    font-family: 'Comic Sans MS', cursive;
-    margin-top: 70px;
-    padding: 10px 20px; /* Ajoute un espace autour du texte */
-    border-radius: 15px; /* Arrondit les coins */
-    display: inline-block; /* Limite la largeur au contenu */
 }
 
 
@@ -187,8 +177,8 @@ footer {
     right: 20px;
     width: 60px;
     height: 60px;
-    background-color: #333;
-    color: #fff;
+    background-color: goldenrod;
+    color: violet;
     border: none;
     border-radius: 50%;
     font-size: 2rem;
@@ -206,6 +196,7 @@ footer {
 }
 
 .music-symbol {
+    color: black;
     line-height: 1;
 }
 
